@@ -1,0 +1,16 @@
+BOEW A Content based Image Retrieval Scheme using Bag of Encrypted Words in Cloud Computing
+
+
+
+IEEE Transactions on Services Computing,Volume:15,Issue:1,Issue Date:01.Jan.-Feb.2022
+
+
+
+
+CREATE TABLE `searchfound` (
+  `id` int(11) NOT NULL auto_increment,
+  `user` text,
+  `keyword` text,
+  `imgname` text,`date` text,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
